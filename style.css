@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  }
+                                                                            /*NAVBAR*/
+  
+.nav-link{
+    font-size: 22px;
+    color: #fff!important;
+    font-weight: 400;
+    font-family: 'Forum', cursive;
+}
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 40px !important;
+}
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+}
+.navbar .fa{
+    color: white!important;
+    border: none;
+}
+.menu-bar .navbar-toggler{
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+.nav-link:hover{
+    font-size: 22px;
+    padding: 5px;
+    color: yellowgreen!important; 
+}*/
+
+                                                                        /* CAROUSEL */
+
+.carousel-item{
+    height: 400px;
+    min-height: 300px;
+    
+    
+}
+ .carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background:black;
+    opacity: 0.1; 
+}
+
+.carousel-caption{
+    bottom: 180px;
+    text-align: left;
+}
+.carousel-caption h6{
+    font-size: 10px;
+    opacity: 0.3;
+    
+}
+.carousel-caption h5{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+}
+.carousel-caption p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    top: 3rem;
+} 
+
+
+                                                                    /* explore */
+
+
+
+.section-1 {
+    padding: 10vmin 0vmin;
+   
+  }
+  
+  .section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 100%;
+    border-radius: 0.2em;
+  }
+  
+  .section-1 .row .col-md-6:last-child {
+    position: relative;
+  }
+  
+  .section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 4vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8vmin 5vmin 5vmin 1vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+  }
+  
+  .section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2.8em;
+    font-family: "Sniglet", cursive;
+  }
+  
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+
+
+
+
+
+
+  .section-2{
+    background-image: url(ASSET/vivek-kumar-JS_ohjocm00-unsplash.jpg);
+    background-size: cover;
+  }
+ 
+  .section-2 .container h1 {
+    font-size: 8vmin;
+    padding-top: 30vmin;
+    font-family: 'Marcellus', serif;
+    font-weight: bold;
+    word-spacing: 15px;
+  }
+  .section-2 .container p{
+    color: indigo;
+    font-size: 3vmin;
+    font-weight: bolder;
+    font-family: 'Charmonman', cursive;
+  }
+  
+  .section-2 .team {
+    padding: 10vmin 4vmin;
+  }
+  
+  .section-2 .card {
+    width: 20em;
+    height: 100%;
+    min-height: 25px;
+    margin-top: 4vmin;
+  }
+  
+  .section-2 .card .card-text {
+    padding: 0.3em;
+  }
+  
+  .section-2 .card-body > a {
+    font-size: 1.5em;
+    color: greenyellow;
+  }
+  
+  .section-2 .carousel-item {
+    padding-left: 3rem;
+  }
+  
+
+
+  .section-3{
+    background-image: url(ASSET/fernand-de-canne-Unl-fQ1_P5Q-unsplash.jpg);
+    background-size: cover;
+  }
+ 
+  .section-3 .container h1 {
+    font-size: 8vmin;
+    padding-top: 20vmin;
+    font-family: 'Marcellus', serif;
+    font-weight: bold;
+  }
+  .section-3 .container p{
+    color: rgb(241, 236, 245);
+    font-size: 3vmin;
+    font-weight: bolder;
+    font-family: 'Charmonman', cursive;
+    word-spacing: 15px;
+  }
+  
+  
+  
+  .section-3 .card {
+    width: 20em;
+    height: calc(100% - 10px);
+    margin-top: 8vmin;
+    margin-left: 9vmin;
+    
+  }
+  .inner{
+    overflow: visible;
+  }
+  .inner img{
+    transition: all 1s ease-in-out;
+  }
+  .inner:hover img{
+    transform: scale(1.2);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+
+
+
+  #art{
+    background-size: cover;
+  }
+
+
+
+  
+
+
+  footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+    margin-top: -20px;
+  }
+  
+  footer p > span {
+    color: #ff512f;
+  }
+  
+  footer input {
+    border: none !important;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+  }
+  
+  footer .column i {
+    color: #dd2476;
+  }
+  
+  /* It is Adjacent sibling combinator */
+  
+  footer .column i + i {
+    padding: 0 0.5em;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

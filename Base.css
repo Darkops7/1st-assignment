@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  }
+
+  .navbar-nav{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Benne', serif;
+  }
+ 
+  
+
+.section-2{
+    background-image: url(ASSET/totalbg.jpg);
+    background-size: contain;
+  }
+ 
+  .section-2 h1{
+    font-size: 10vmin;
+    padding-top: 30vmin;
+     font-family: 'Marcellus', serif; 
+    font-weight: bolder;
+    word-spacing: 15px;
+  }
+  /* .section-2 .container p{
+    color: indigo;
+    font-size: 3vmin;
+    font-weight: bolder;
+    font-family: 'Charmonman', cursive;
+  } */
+  
+  .section-2 .team {
+    padding: 5vmin 2vmin;
+  }
+  
+  .section-2 .card {
+    width: 20em;
+    height: calc(100% - 10px);
+    margin-top: 4vmin;
+  }
+  
+  .section-2 .card .card-text {
+    padding: 0.3em;
+  }
+  
+  .section-2 .card-body > a {
+    font-size: 1.5em;
+    color: greenyellow;
+  }
+  
+  .section-2 .carousel-item {
+    padding-left: 3rem;
+  }
+  
+
+  footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+  }
+  
+  footer p > span {
+    color: #ff512f;
+  }
+  
+  footer input {
+    border: none !important;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+  }
+  
+  footer .column i {
+    color: #dd2476;
+  }
+  
+  /* It is Adjacent sibling combinator */
+  
+  footer .column i + i {
+    padding: 0 0.5em;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+  }

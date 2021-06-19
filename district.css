@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: contain;
+}
+.fw-dark{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Charm', cursive;
+    color: #0a3fdf;
+}
+.lead-text{
+  font-family: 'Libre Baskerville', serif;
+  word-spacing: 4px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.container a{
+  color: black;
+  text-decoration: none;
+
+}
+
+
+.card{
+    width: 25em;
+    height: calc(100% - 10px);
+}
+.card-text{
+    padding: 2px;
+}
+.card-body h5{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+}
+.card-body p{
+    font-family: 'Cormorant Upright', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+  }
+  
+  footer p > span {
+    color: #ff512f;
+  }
+  
+  footer input {
+    border: none !important;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+  }
+  
+  footer .column i {
+    color: #dd2476;
+  }
+  
+  /* It is Adjacent sibling combinator */
+  
+  footer .column i + i {
+    padding: 0 0.5em;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+  }
+  
