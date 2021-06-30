@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="signup.css">
+    
+</head>
+<body>
+   
+  <div class="container">
+    <div class="title">Sign Up</div>
+    
+    <div class="content">
+      <form action="login.html" name="myForm" onsubmit="return validate()">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required autofocus>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required pattern=".*\S.*">
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" id="email" oninput="validate()" on>
+             <label for="error" id="error"></label> 
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="your 10 digit phone number" id="phone" oninput="inputNumber()" required >
+            <label for="number" id="number"></label>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" id="password" oninput="strengthChecker()" required>
+            <div id="strength-bar"></div>
+            <p id="msg"></p>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" id="pswd" onkeyup="check()" required>
+            <label for="pwd" id="pwd"></label>
+          </div>
+        </div>
+        <div class="button" id="submit">
+          <input type="submit" value="Sign Up">
+        </div>
+        <div class="link">
+          <h5>Already have an account?<a href="login.html">log in</a></h5>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="signup.js"></script>
+</body>
+</html>
